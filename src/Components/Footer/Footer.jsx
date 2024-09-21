@@ -9,7 +9,7 @@ export default function Footer() {
   return  <>
     
   
-  <footer className={`${Style.color}` }> 
+  <footer className={`${Style.color} fixed-bottom` }> 
 
   <div className='d-flex justify-content-between bg-secondary-subtle p-3'>
 
@@ -26,7 +26,7 @@ export default function Footer() {
     <i className="fa-brands fa-github mx-2 text-dark fs-5"></i>
     </div>
 </div>
-  <div className="container-fluid bg-dark">
+  {/* <div className="container-fluid bg-dark">
 
     <div className={`bg-dark row g-0  p-1`}>  
         <div className="col-md-3 text-warning py-2" >
@@ -65,7 +65,7 @@ export default function Footer() {
             </div>
         </div>
     </div>
-</div>
+</div> */}
   </footer>
 
 
