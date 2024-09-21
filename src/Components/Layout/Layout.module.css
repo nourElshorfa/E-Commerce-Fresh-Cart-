@@ -1,0 +1,21 @@
+.offline {
+    position: fixed;
+    top: 20;
+    background-color: #ffdddd;
+    color: #ff5555;
+    padding: 10px;
+    text-align: center;
+    z-index: 9999;
+    box-shadow: 0px 2px 4px rgba(0, 0, 0, 0.2);
+  }
+
+
+  .online {
+    position: fixed;
+    top: 20;
+    background-color:green;
+    color: #fff;
+    padding: 10px;
+    text-align: center;
+    z-index: 9999;
+  }

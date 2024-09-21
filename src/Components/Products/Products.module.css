@@ -1,0 +1,10 @@
+.cartBtn {
+   transform: translateY(200px);
+ 
+}
+
+.card:hover .cartBtn {
+    transform: translateY(0px);
+    transition: all 0.4s;
+}
+

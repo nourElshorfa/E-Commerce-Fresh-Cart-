@@ -1,0 +1,47 @@
+:root {
+  --main-color:#0aad0a;
+  --light-color:#f0f3f2;
+  --shadow: rgba(145, 158, 171, 0.24) 0px 0px 2px 0px, rgba(145, 158, 171, 0.24) 0px 16px 32px -4px;
+  --font-family:"Encode Sans Expanded", sans-serif;
+  --rating-color: #ffc908;
+}
+.main-colorBg {
+  background-color: var(--main-color) !important;
+}
+.main-color {
+  color: var(--main-color) !important;
+  
+}
+
+body {
+  font-family: var(--font-family) !important;
+  text-transform: capitalize !important;
+}
+.rating-color {
+  color: var(--rating-color);
+  /* background-color: var(--rating-color) !important; */
+}
+.cursor-pointer {
+  cursor: pointer;
+}
+a , a:hover {
+  color: black !important;
+  text-decoration: none !important;
+}
+.product:hover {
+  box-shadow: var(--shadow) !important;
+  border: 1px solid var(--main-color) !important;
+}
+
+.card {
+  transition: all 1s;
+
+}
+.card:hover {
+  
+  border: 1px solid var(--main-color) !important;
+  box-shadow: var(--shadow) !important;
+
+}
+
+

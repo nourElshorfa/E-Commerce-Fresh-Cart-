@@ -1,0 +1,13 @@
+.text {
+    text-transform: none !important;
+}
+
+.hr {
+    background-color: #007bff; /* Sets the line color */
+    height: 2px;              /* Sets the thickness of the line */
+    width: 50%;               /* Adjusts the width of the line */
+}
+
+.color {
+  background-color: orange;  
+}

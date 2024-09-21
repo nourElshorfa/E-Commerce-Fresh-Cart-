@@ -1,0 +1,9 @@
+.arrow {
+    cursor: pointer;
+    transition: all 0.5s;
+
+}
+.arrow:hover {
+    color: red;
+    transform: translate(5px, 0px);
+}
